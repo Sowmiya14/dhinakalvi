@@ -1,0 +1,14 @@
+<style type="text/css">
+    @media screen and (max-width: 1180px) and (min-width: 991px) {
+        .sectionLanguage_list > li { margin-right: 25px; }
+        .sectionNavigation .navDropdown_list>li>a { margin-right:20px;  }
+    }
+    @media screen and (max-width: 991px) and (min-width: 320px)  {
+        .sectionNavigation .navDropdown{ display: none !important; }
+        .sectionNavigation .logo.active {background-image :url("../images/logo3.svg") !important;}
+        .sectionFooter .sectionFooterNavigation .navigation li { display: inline-block !important; }
+        .sectionFooterNavigation ul { margin-top: 20px!important; }
+    }
+    
+    
+</style>

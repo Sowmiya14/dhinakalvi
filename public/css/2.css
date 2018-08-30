@@ -1,0 +1,237 @@
+.sectionNavigation .navDropdown_lista {
+    list-style: none;
+    margin-left: 20px
+}
+
+.sectionNavigation .navDropdown_lista>li {
+    float: left;
+    margin-right: 50px
+}.sectionNavigation .navDropdown_lista>li>a {
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    color: #0e0d0d;
+    text-transform: uppercase;
+    padding: 4px 5px 0;
+    letter-spacing: 1px;
+    text-decoration: none;
+    zoom: 1;
+    filter: alpha(opacity=80);
+    opacity: 0.8
+}
+
+.sectionNavigation .navDropdown_lista>li>a:hover {
+    border-bottom: 4px solid #fff;
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.sectionNavigation .navDropdown_lista>li>a.active {
+    border-bottom: 4px solid #fff;
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.sectionNavigation .navDropdown_lista>li:last-of-type {
+    margin-right: 0
+}
+
+
+
+
+
+
+
+
+.gridPostsList1 {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.gridPostsList1 .imgWrapper {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    max-width: 100%
+}
+
+.gridPostsList1 .imgWrapper img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    height: 100%;
+    margin: auto
+}
+
+.gridPostsList1 .imgWrapper .overlay {
+    display: none
+}
+
+.gridPostsList1 .imgWrapper .socialIconWrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 2px;
+    margin-right: 2px
+}
+
+.gridPostsList1 .imgWrapper .socialIconWrapper.facebook {
+    right: 42px
+}
+
+.gridPostsList .imgWrapper .socialIconWrapper.pinterest {
+    right: 84px
+}
+
+.gridPostsList1 .imgWrapper .socialIconWrapper i {
+    font-size: 20px
+}
+
+.gridPostsList1 .imgWrapper .pill {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.gridPostsList1 .imgWrapper-small {
+    height: 130px
+}
+
+.gridPostsList1 .imgWrapper-large {
+    height: 250px
+}
+
+.gridPostsList1 .imgWrapper-xlarge {
+    height: 300px
+}
+
+.gridPostsList1 .imgWrapper-xxlarge {
+    height: 476px
+}
+
+.gridPostsList1 .content {
+    height: 350px
+}
+
+.gridPostsList1 .content-small {
+    height: 275px
+}
+
+.gridPostsList1 .content-small .title-small {
+    font-size: 18px;
+    line-height: 26px
+}
+
+.gridPostsList1 .content-large {
+    height: 210px
+}
+
+.gridPostsList1 .content-xlarge {
+    height: 250px
+}
+
+.gridPostsList1 .content-xxlarge {
+    height: 202px
+}
+
+.gridPostsList1 .postInfoWrapper {
+    line-height: 12px
+}
+
+.gridPostsList1 .postInfoWrapper a:hover {
+    color: #E5002D
+}
+
+.gridPostsList1 .iconLikeComment {
+    font-size: 12px;
+    line-height: 11px
+}
+
+.gridPostsList1 .iconLikeComment:hover {
+    color: #E5002D
+}
+
+.gridPostsList1>li {
+    border-right: 1px solid #ECECEC;
+    	
+}
+
+.gridPostsList1>li>a {
+    text-decoration: none
+}
+
+.gridPostsList1>li>a:hover .overlay {
+    display: block
+}
+
+.gridPostsList1>li>a:hover .socialIconWrapper {
+    display: block
+}
+
+.gridPostsList1>li>a:hover .pill {
+    color: #E5002D;
+    border-color: #E5002D
+}
+
+.gridPostsList1>li>a:hover .title-small {
+    color: #E5002D !important
+}
+
+.gridPostsList1>li.omega {
+    border-right: none
+}
+
+.gridPostsList1>li:last-of-type {
+    border-right: none
+}
+
+.gridPostsList1-fullWidthBlock>li {
+    border-right: none !important;
+    border-bottom: none !important
+
+}
+
+.gridPostsList1-fullWidthBlock .imgWrapper {
+    float: left;
+    width: 35%;
+    height: 70px
+}
+
+.gridPostsList1-fullWidthBlock .content {
+    position: relative;
+    width: 65%;
+    height: 25px;
+    padding-left: 16px
+}
+
+.gridPostsList1-fullWidthBlock .postDetails {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.gridPostsList1-fullWidthBlock-large .imgWrapper {
+    width: 66.66%;
+    height: 220px;
+    padding-right: 16px
+}
+
+.gridPostsList1-fullWidthBlock-large .content {
+    width: 33.33%;
+    height: 200px;
+    padding-left: 16px
+}
+
+.gridPostsList1-fullWidthBlock-large .title:hover {
+    color: #8600E5 !important
+}
