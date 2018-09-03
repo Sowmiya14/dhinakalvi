@@ -28,6 +28,7 @@
   left: 0.5em;
   margin-right: -50%;
 }
+
    </style>
    <section class="section sectionMainPosts pb-30 "  id="section1">
       <div class="container">
@@ -35,7 +36,7 @@
             <div class="row">
                <div class="col-sm-9">
                   <div class="">
-                   <div class="line" > <h3 style="font-size: 26px; color: #333333;">முக்கியச்செய்தி</h3></div>
+                   <div class="line" > <h3 style="font-size: 24px; font-family:Noto Sans Tamil; color: #474646; ">முக்கியச்செய்தி</h3></div>
 
                      <!-- <div class="title-small bentonCondensed bold color-black-2 truncate-5 mt-15"> <h2><b>முக்கியச்செய்தி--------------------------------------------------------------------------------</b></h2></div> -->
                      <div class="news_video_live_con">
@@ -286,7 +287,7 @@
 <section class="section sectionMainPosts pb-30 "  >
       <div class="container">
          <div class="row">
-                <a href=""><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a>                                                                                                                                   
+                <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>                                                                                                                                   
             <div class="col-sm-4"></div>
          </div>
          <div class="row">
@@ -444,7 +445,7 @@
 
             <ul class="gridPostsList">
             <div class="col-sm-4">
-               <a href=""><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a>
+               <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>
                <li class="grid">
                      <div href="#" class="imgWrapper block">
                         <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img">
@@ -459,7 +460,7 @@
                            நியூஸ் வியூஸ்
                            </div> -->
                      </div>
-               <a href=""><h1 style="font-size: 19px; color: #333333;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
+               <a href=""><h1 style="font-size: 19px; color: #474646;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
                      
                      <hr>
                       <p class="color-default truncate-3 mt-5"style="font-size: 16px;">
@@ -478,7 +479,7 @@
                </li>
             </div>
            <div class="col-sm-4">
-               <a href=""><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a>
+               <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>
                <li class="grid">
                      <div href="#" class="imgWrapper block">
                         <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img">
@@ -493,7 +494,7 @@
                            நியூஸ் வியூஸ்
                            </div> -->
                      </div>
-               <a href=""><h1 style="font-size: 19px; color: #333333;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
+               <a href=""><h1 style="font-size: 19px; color: #474646;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
                      
                      <hr>
                      <a href=""><p class="color-default truncate-3 mt-5" style="font-size: 16px;">
@@ -512,7 +513,7 @@
                </li>
             </div>
            <div class="col-sm-4">
-               <a href=""><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a>
+               <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>
                <li class="grid">
                      <div href="#" class="imgWrapper block">
                         <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img">
@@ -527,7 +528,7 @@
                            நியூஸ் வியூஸ்
                            </div> -->
                      </div>
-               <a href=""><h1 style="font-size: 19px; color: #333333;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
+               <a href=""><h1 style="font-size: 19px; color: #474646;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
                      
                      <hr>
                      <a href=""><p class="color-default truncate-3 mt-5" style="font-size: 16px;">
@@ -564,7 +565,7 @@
  <section class="section sectionMainPosts pb-30 "  >
       <div class="container">
          <div class="row">
-                <a href="" ><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a>                                                                                                                                   
+                <a href="" ><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>                                                                                                                                   
             <div class="col-sm-4"></div>
          </div>
          <div class="row">
@@ -900,7 +901,7 @@
    <section class="section sectionMainPosts pb-30 "  >
       <div class="container">
          <div class="row">
-                <a href=""><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a>                                                                                                                                   
+                <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>                                                                                                                                   
             <div class="col-sm-4"></div>
          </div>
          <div class="row">
@@ -960,7 +961,7 @@
                         <div class="fl content">
                               <a href="" style="color: red;font-size: 16px;">தேர்வில்</a><br>
 
-                           <p class="color-default truncate-2 mt-5"style="font-size: 16px;">
+                           <p class="color-default truncate-2 mt-5" style="font-size: 16px;">
                               நீட் தேர்வில் நல்ல மதிப்பெண்கள் எடுத்தும், வறுமை காரணமாக பல் மருத்துவ வாய்ப்பை ஏற்க இயலாமல் தவித்த 
                            </p>
                            <div class="postDetails mt-20">
@@ -990,7 +991,7 @@
                         <div class="fl content">
                               <a href="" style="color: red;font-size: 16px;">தேர்வில்</a><br>
 
-                           <p class="color-default truncate-2 mt-5"style="font-size: 16px;">
+                           <p class="color-default truncate-2 mt-5" style="font-size: 16px;">
                               நீட் தேர்வில் நல்ல மதிப்பெண்கள் எடுத்தும், வறுமை காரணமாக பல் மருத்துவ வாய்ப்பை ஏற்க இயலாமல் தவித்த 
                            </p>
                            <div class="postDetails mt-20">

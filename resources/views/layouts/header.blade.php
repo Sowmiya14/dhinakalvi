@@ -1,10 +1,9 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
-      <title>Your Story</title>
+      <title>Dinakalvi</title>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0"/>
       <meta name="description" content="">
@@ -205,13 +204,12 @@ li.dropdown:hover > .dropdown-menu {
                         <i class="icon-cancel js-icon-cancel hide"></i>
                         </a>  
                      <div class="has-dropdown current-page" id="resp" >
-                        <a href="#" data-dropdown="logo" class="logo active hide-text" id="logo" style="background-color:                                                                                                                                                                                                              #e5002d; "></a>
-                        <div data-dropdown="logo" class="navDropdown show"  style="background-color: #e5002d;height: 70px;position:fixed;top:100px; ">
+                        <a href="#" data-dropdown="logo" class="logo active hide-text" id="logo" style="background-color:#e23809; "></a>
+                        <div data-dropdown="logo" class="navDropdown show"  style="background-color: #e23809;height: 70px;position:fixed;top:100px; ">
                            <div class="container" style=" top:18px;">
                               <ul class="navDropdown_list">
                                  <li>
-                                  <center>  <i class="fa fa-home fa-lg" aria-hidden="true" id="icon"  ></i></center>
-                                    <a href="/" class="" style="font-size: 16px;" ><b>முகப்பு</b></a>
+                                     <center><i class="fa fa-home fa-lg" aria-hidden="true" id="icon"></i></center><a href="/" class="" style="font-size: 16px;" ><b>முகப்பு</b></a> 
                                  </li>
                                  <li>
                                    <center> <i class="fa fa-laptop fa-lg" aria-hidden="true" id="icon"></i></center>
@@ -283,7 +281,7 @@ li.dropdown:hover > .dropdown-menu {
                                           </a>
                                        </li>
                                        <li class="dropdown">
-                                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"style="font-size: 14px;"><b> விதைத்தவர்கள்</b> <b class="caret"></b></a>
+                                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"><b> விதைத்தவர்கள்</b> <b class="caret"></b></a>
                                            <ul class="dropdown-menu">
                                              <li><a href="#">Action</a></li>
                                              <li><a href="#">Another action</a></li>
