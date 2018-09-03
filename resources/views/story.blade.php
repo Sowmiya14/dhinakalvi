@@ -20,7 +20,7 @@
 
 
 .line h2:after {
-  background-color: #303030;
+  background-color: #545252;
   content: "";
   display: inline-block;
   height: 1px;
@@ -62,8 +62,7 @@
                <div class="col-sm-9">
                   <div class="">
 
-                   <div class="line" > <h3 style="font-size: 24px; font-family:Noto Sans Tamil; color: #474646; ">முக்கியச்செய்தி</h3></div>
-
+                   <div class=""> <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2></div>
                    {{-- <div class="line" > <h2>முக்கியச்செய்தி</h2></div> --}}
 
 
@@ -324,9 +323,9 @@
 </section>
  <section class="section sectionMainPosts pb-30 "  >
       <div class="container">
-                <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>                                                                     
+                <a href=""><h1 style="font-size: 22px; color: #4c4c4c;"><b>முக்கியச்செய்தி</b></h1></a>                                                                     
                 <!-- <a href="" ><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a>                                                                                                                                    -->
-                 <h2 class="hd"><a id="heading" href="">&nbsp;&nbsp;&nbsp;&nbsp;முக்கியச்செய்தி</a> </h2>
+                 {{-- <h2 class="hd"><a id="heading" href="">&nbsp;&nbsp;&nbsp;&nbsp;முக்கியச்செய்தி</a> </h2> --}}
             <div class="col-sm-4"></div>
          </div>
          <div class="row">
@@ -337,7 +336,7 @@
 
                <a href="#" class="content">
                   <div href="#" class="imgWrapper imgWrapper-xlarge block">
-                     <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img" id="size">
+                     <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img" id="size" style="width: 1500px;height: 4000px;">
                      <div class="overlay"></div>
                      <div data-type="facebook" data-url="#" class="socialIconWrapper facebook" data-title="" data-via="YourStoryCo">
                         <i class="icon-facebook"></i>
@@ -346,14 +345,14 @@
                         <i class="icon-twitter-bird"></i>
                      </div>
 
-                     <div class="pill" style="bottom: 75px;background-color:#e5002d;width: 180px;height: 30px;opacity: 0.7;">    
+                     <div class="pill" style="bottom: 75px;background-color:#e5002d;width: 140px;height: 30px;opacity: 0.7;">    
                         <a href=""><p class="truncate-3 mt-5" style="font-size: 16px; color:white;">
                         <b>சேட்களுக்கு</b>
                      </p></a>
                      </div>
                      <div class="pill pill-large">
                         <a href=""><p class="truncate-3 mt-5" style="font-size: 22px; color:white;">
-                        <b>5 சேட்களுக்கு மட்டுமே செய்தியை ஃபார்வர்ட் செய்ய வாட்ஸ் அப் நிறுவனம் சோதனை நடத்தி வருகிறது</b>
+                        <b>5 சேட்களுக்கு மட்டுமே செய்தியை ஃபார்வர்ட் செய்ய</b>
                      </p></a>
                         
                      </div>
@@ -384,7 +383,7 @@
                            </div>
                         </div>
                         <div class="fl content">
-                              <a href="" style="color: red;font-size: 16px;"id="line1">பொழுதுபோக்கு </a><br>
+                              <a href="" style="color: red;font-size: 16px;" id="line1">பொழுதுபோக்கு </a><br>
 
                            <p class="color-default truncate-3 mt-5"style="font-size: 16px;">
                               நீட் பொழுதுபோக்கு  நல்ல மதிப்பெண்கள் எடுத்தும், வறுமை காரணமாக பல் மருத்துவ வாய்ப்பை ஏற்க இயலாமல் தவித்த 
@@ -416,7 +415,7 @@
                         <div class="fl content">
                               <a href="" style="color: red;font-size: 16px;">பொழுதுபோக்கு </a><br>
 
-                           <p class="color-default truncate-3 mt-5"style="font-size: 16px;"id="line1">
+                           <p class="color-default truncate-3 mt-5" style="font-size: 16px;" id="line1">
                               நீட் பொழுதுபோக்கு  நல்ல மதிப்பெண்கள் எடுத்தும், வறுமை காரணமாக பல் மருத்துவ வாய்ப்பை ஏற்க இயலாமல் தவித்த 
                            </p>
                            <div class="postDetails mt-20">
@@ -481,9 +480,9 @@
 
             <ul class="gridPostsList">
             <div class="col-sm-4">
-               <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>
+               <a href=""><h1 style="font-size: 22px; color: #4c4c4c;"><b>முக்கியச்செய்தி</b></h1></a>
                <!-- <a href=""><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a> -->
-                <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2>
+               {{--  <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2> --}}
                <li class="grid">
                      <div href="#" class="imgWrapper block">
                         <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img">
@@ -498,7 +497,7 @@
                            நியூஸ் வியூஸ்
                            </div> -->
                      </div>
-               <a href=""><h1 style="font-size: 19px; color: #474646;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
+               <a href=""><h1 style="font-size: 19px; color: #4c4c4c;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
                      
                      <hr>
                       <p class="color-default truncate-3 mt-5"style="font-size: 16px;">
@@ -518,10 +517,10 @@
             </div>
            <div class="col-sm-4">
 
-               <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>
+               <a href=""><h1 style="font-size: 22px; color: #4c4c4c;"><b>முக்கியச்செய்தி</b></h1></a>
 
                <!-- <a href=""><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a> -->
-                <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2>
+               {{--  <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2> --}}
 
                <li class="grid">
                      <div href="#" class="imgWrapper block">
@@ -537,7 +536,7 @@
                            நியூஸ் வியூஸ்
                            </div> -->
                      </div>
-               <a href=""><h1 style="font-size: 19px; color: #474646;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
+               <a href=""><h1 style="font-size: 19px; color: #4c4c4c;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
                      
                      <hr>
                      <a href=""><p class="color-default truncate-3 mt-5" style="font-size: 16px;">
@@ -556,11 +555,8 @@
                </li>
             </div>
            <div class="col-sm-4">
-
-               <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>
-
-               <!-- <a href=""><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a> -->
-                <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2>
+               <a href=""><h1 style="font-size: 22px; color: #4c4c4c;"><b>முக்கியச்செய்தி</b></h1></a>
+                {{-- <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2> --}}
                <li class="grid">
                      <div href="#" class="imgWrapper block">
                         <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img">
@@ -571,12 +567,9 @@
                         <div data-type="twitter" data-url="#" class="socialIconWrapper" data-title="" data-via="YourStoryCo">
                            <i class="icon-twitter-bird"></i>
                         </div>
-                        <!-- <div class="pill pill-white">
-                           நியூஸ் வியூஸ்
-                           </div> -->
                      </div>
-               <a href=""><h1 style="font-size: 19px; color: #474646;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
-                     
+               <a href=""><h1 style="font-size: 19px; color: #4c4c4c;"><b>முக்கி யச்செய்தி அப் செய்தியை</b></h1></a>
+       
                      <hr>
                      <a href=""><p class="color-default truncate-3 mt-5" style="font-size: 16px;">
                         5 சேட்களுக்கு மட்டுமே செய்தியை ஃபார்வர்ட் செய்ய வாட்ஸ் அப் நிறுவனம் சோதனை நடத்தி வருகிறது...
@@ -595,9 +588,7 @@
             </div>
             </ul>
             </div>
-
-           
-            <div class="col-sm-3">
+           <div class="col-sm-3">
               
                <div class="" ><br><br><img src="{{ asset('images/pepsi1.jpg') }} " height="570" width="275"></div>
                
@@ -612,9 +603,9 @@
   <section class="section sectionMainPosts pb-30 "  >
       <div class="container">
          <div class="row">
-                <a href="" ><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>                                 
+                <a href="" ><h1 style="font-size: 22px; color: #4c4c4c;"><b>முக்கியச்செய்தி</b></h1></a>                                 
                 <!-- <a href="" ><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a>                                                                                                                                    -->
-                 <h2 class="hd"><a id="heading" href="">&nbsp;&nbsp;&nbsp;&nbsp;முக்கியச்செய்தி</a> </h2>
+                 {{-- <h2 class="hd"><a id="heading" href="">&nbsp;&nbsp;&nbsp;&nbsp;விளையாட்டு</a> </h2> --}}
             <div class="col-sm-4"></div>
          </div>
          <div class="row">
@@ -672,7 +663,7 @@
                            </div>
                         </div>
                         <div class="fl content">
-                              <a href="" style="color: red;font-size: 16px;"id="line1">பொழுதுபோக்கு </a><br>
+                              <a href="" style="color: red;font-size: 16px;" id="line1">பொழுதுபோக்கு </a><br>
 
                            <p class="color-default truncate-3 mt-5" style="font-size: 16px;">
                               நீட் பொழுதுபோக்கு  நல்ல மதிப்பெண்கள் எடுத்தும், வறுமை காரணமாக பல் மருத்துவ வாய்ப்பை ஏற்க இயலாமல் தவித்த 
@@ -704,7 +695,7 @@
                         <div class="fl content">
                               <a href="" style="color: red;font-size: 16px;">பொழுதுபோக்கு </a><br>
 
-                           <p class="color-default truncate-3 mt-5"style="font-size: 16px;"id="line1">
+                           <p class="color-default truncate-3 mt-5" style="font-size: 16px;" id="line1">
                               நீட் பொழுதுபோக்கு  நல்ல மதிப்பெண்கள் எடுத்தும், வறுமை காரணமாக பல் மருத்துவ வாய்ப்பை ஏற்க இயலாமல் தவித்த 
                            </p>
                            <div class="postDetails mt-20">
@@ -929,7 +920,7 @@
                                        </a>
                                     </li>
                                  </ul>
-                                 <a href=ta/headlines.html >
+                                 <a href="ta/headlines.html">
                                     <div class="read-more1" style="color: red;">மேலும் படிக்க...</div>
                                  </a>
                               </div>
@@ -945,9 +936,9 @@
       <div class="container">
          <div class="row">
 
-                <a href=""><h1 style="font-size: 22px; color: #474646;"><b>முக்கியச்செய்தி</b></h1></a>                                                                     
+                <a href=""><h1 style="font-size: 22px; color: #4c4c4c;"><b>முக்கியச்செய்தி</b></h1></a>                                                                     
                 <!-- <a href="" ><h1 style="font-size: 22px; color: #333333;"><b>முக்கியச்செய்தி</b></h1></a>                                                                                                                                    -->
-                 <h2 class="hd"><a id="heading" href="">&nbsp;&nbsp;&nbsp;&nbsp;முக்கியச்செய்தி</a> </h2>
+                 <h2 class="hd"><a id="heading" href=""></a></h2>
             <div class="col-sm-4"></div>
          </div>
          <div class="row">
@@ -1067,7 +1058,7 @@
                         <div class="fl content">
                               <a href="" style="color: red;font-size: 16px;">பொழுதுபோக்கு </a><br>
 
-                           <p class="color-default truncate-2 mt-5"style="font-size: 16px;"id="line1">
+                           <p class="color-default truncate-2 mt-5" style="font-size: 16px;" id="line1">
                               <!-- <a href="" style="color: red;">பொழுதுபோக்கு </a><br> -->
                               நீட் பொழுதுபோக்கு  நல்ல மதிப்பெண்கள் எடுத்தும், வறுமை காரணமாக பல் மருத்துவ வாய்ப்பை ஏற்க இயலாமல் தவித்த 
                            </p>
@@ -1104,8 +1095,8 @@
                <div id="block-views-home-current-news-editorpick" class="block block-views`">
                   <div class="content">
                      <div class="wf db fl">
-                         <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2>
-    <!-- <h1 style="font-size: 22px; color: #303030;"><b>ட்ரெண்டிங் நியூஸ் </b></h1> -->
+                         <h2 class="hd"><a id="heading" href=""></a> </h2>
+    <!-- <h1 style="font-size: 22px; color: #545252;"><b>ட்ரெண்டிங் நியூஸ் </b></h1> -->
 
                         <!-- <h2>ட்ரெண்டிங் நியூஸ் </h2> -->
                      </div>
@@ -1116,7 +1107,7 @@
                               <div class="swiper-slide">
                                  <a href="">
                                     <div class="article">
-                                       <div class="imgg" id="lazyloadnews7"><img src="{{ asset('images/image.jpg') }}" class="sectionPostDetailsOverlap_img" class="img-responsive" alt="Image"><div class="pill pill"style="position: absolute; top: 150px;left: 0px;color: #fff; background:rgba(0, 0, 0, 0.5);">
+                                       <div class="imgg" id="lazyloadnews7"><img src="{{ asset('images/image.jpg') }}" class="sectionPostDetailsOverlap_img" class="img-responsive" alt="Image"><div class="pill pill" style="position: absolute; top: 150px;left: 0px;color: #fff; background:rgba(0, 0, 0, 0.5);">
                              
                           <i class="fa fa-play fa-2x" aria-hidden="true" > 23:40</i></div> </div>
                                        <p>​நீட் பொழுதுபோக்கு  நல்ல மதிப்பெண்கள் எடுத்தும், வறுமை காரணமாக பல் மருத்துவ வாய்ப்பை ஏற்க இயலாமல் தவித்த 
@@ -1134,7 +1125,7 @@
                                  </a>
                               </div>
                               <div class="swiper-slide">
-                                 <a href=ta/tamil-news/india/12/8/2018/pm-modi-ani-speech-translation-tamil.html >
+                                 <a href="ta/tamil-news/india/12/8/2018/pm-modi-ani-speech-translation-tamil.html" >
                                     <div class="article">
                                        <div class="imgg" id="lazyloadnews7"><img src="{{ asset('images/image.jpg') }}" class="sectionPostDetailsOverlap_img" class="img-responsive" alt="Image"></div>
                                        <p>​<i class="fa fa-play" aria-hidden="true"> 23:40</i>
@@ -1143,7 +1134,7 @@
                                  </a>
                               </div>
                               <div class="swiper-slide">
-                                 <a href=ta/tamil-news/india/12/8/2018/how-much-amount-salt-should-we-take-daily.html >
+                                 <a href="ta/tamil-news/india/12/8/2018/how-much-amount-salt-should-we-take-daily.html" >
                                     <div class="article">
                                        <div class="imgg" id="lazyloadnews7"><img src="{{ asset('images/image.jpg') }}" class="sectionPostDetailsOverlap_img" class="img-responsive" alt="Image"></div>
                                        <p>​<i class="fa fa-play" aria-hidden="true"> 23:40</i>
@@ -1161,7 +1152,7 @@
                                  </div>
                               </div>
                               <div class="swiper-slide">
-                                 <a href=ta/tamil-news/tamilnadu/12/8/2018/tamilnadu-governmet-proposed-various-rules-vinayagar-chadurthi.html >
+                                 <a href="ta/tamil-news/tamilnadu/12/8/2018/tamilnadu-governmet-proposed-various-rules-vinayagar-chadurthi.html" >
                                     <div class="article">
                                        <div class="imgg" id="lazyloadnews7"><img src="{{ asset('images/image.jpg') }}" class="sectionPostDetailsOverlap_img" class="img-responsive" alt="Image"></div>
                                        <p>​<i class="fa fa-play" aria-hidden="true"> 23:40</i>
@@ -1170,7 +1161,7 @@
                                  </a>
                               </div>
                               <div class="swiper-slide">
-                                 <a href=ta/tamil-news/india-world/11/8/2018/after-blue-whale-momo-challenge-going-viral-within-teens.html >
+                                 <a href="ta/tamil-news/india-world/11/8/2018/after-blue-whale-momo-challenge-going-viral-within-teens.html" >
                                     <div class="article">
                                        <div class="imgg" id="lazyloadnews7"><img src="{{ asset('images/image.jpg') }}" class="sectionPostDetailsOverlap_img" class="img-responsive" alt="Image"></div>
                                        <p>​<i class="fa fa-play" aria-hidden="true"> 23:40</i>
@@ -1240,7 +1231,7 @@
       <div class="col-sm-9">
    <div class="">
 
-    <!-- <h1 style="font-size: 22px; color: #303030;"><b>இன்றைய திருக்குறள்</b></h1> -->
+    <!-- <h1 style="font-size: 22px; color: #545252;"><b>இன்றைய திருக்குறள்</b></h1> -->
      <h2 class="hd"><a id="heading" href="">இன்றைய திருக்குறள்</a> </h2>
    <div class="kural-con">
    <img src="{{ asset('images/Tiruvalluvar.jpg') }}" class="img-responsive" alt="Image">
@@ -1248,11 +1239,11 @@
    <div id="block-block-73" class="block block-block">
    <div class="content1">
    <div class="kural-view">
-   <p style="font-size: 16px; color: #303030; word-spacing: 5px;"><b>கருவியும் காலமும் செய்கையும் செய்யும் <br> அருவினையும் மாண்டது அமைச்சு.</b></p>
+   <p style="font-size: 16px; color: #545252; word-spacing: 5px;"><b>கருவியும் காலமும் செய்கையும் செய்யும் <br> அருவினையும் மாண்டது அமைச்சு.</b></p>
    <span> (குறள் எண்: <b class="eng">630</b>) </span>
    </div>
    <div class="kural-view">
-   <p style="font-size: 15px;color: #303030;"><b>மு.வ : செயலுக்கு உரிய கருவியும், ஏற்றக் காலமும், செய்யும் வகையும் செய்யப்படும் அறியச் செயலும் சிறப்படையச் செய்ய வல்லவன் அமைச்சன். </b><br></p>
+   <p style="font-size: 15px;color: #545252;"><b>மு.வ : செயலுக்கு உரிய கருவியும், ஏற்றக் காலமும், செய்யும் வகையும் செய்யப்படும் அறியச் செயலும் சிறப்படையச் செய்ய வல்லவன் அமைச்சன். </b><br></p>
    <div class="imgg"><img src="{{ asset('images/kural_book.jpg') }}" class="img-responsive" alt="Image"></div>
    </div>
    </div>
@@ -1286,7 +1277,7 @@
          <div class="col-sm-9">
             <div class="col-sm-6">
                <!-- <center><div class="title-small bentonCondensed bold color-blue-2 truncate-5 mt-15" ><h2><b>முக்கியச்செய்தி<hr></b></h2></div></center> -->
-               <!--<div class="panel-label normal"><h3 style="color: #303030;" ><b>முக்கியச்செய்தி</b></h3> 
+               <!--<div class="panel-label normal"><h3 style="color: #545252;" ><b>முக்கியச்செய்தி</b></h3> 
      <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2>
 
                </div>--> <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2><hr>
@@ -1335,8 +1326,8 @@
                <p class="truncate-15 mt-5"style="font-size: 16px; word-spacing: 4px;line-height: 28px;"id="heading">manu content மெட்டாஸ்டேட்டிக் புற்றுநோயால் பாதிக்கப நடிகை சோனாலி பிந்த்ரே, தன் நோயை பற்றி மகன் ரன்வீரிடம் தெரிவித்த போது, அதை அவன் எவ்வளவு முதிர்ச்சியோடு எடுத்துக் கொண்டான் என இன்ஸ்டாகிராமில் பதிவமெட்டாஸ்டேட்டிக் புற்றுநோயால் பாதிக்கப்பட் புற்றுநோயால் பாதிக்கப் நடிகை சோனாலி பிந்த்ரே, தன் நோயை பற்றி மகன் ரன்வீரிடம் தெரிவித்த போது, அதை அவன் எவ்வளவு முதிர்ச்சியோடு எடுத்துக் கொண்டான் என இன்ஸ்டாகிராமில் பதிவ...</p>
             </div>
             <div class="col-sm-6">
-              <!--  <div class="panel-label normal"><h3 style="color: #303030;" ><b>முக்கியச்செய்தி</b></h3></div> -->
-            <!--   <div class="panel-label normal"> --><!-- <h3 style="color: #303030;" ><b>முக்கியச்செய்தி</b></h3> 
+              <!--  <div class="panel-label normal"><h3 style="color: #545252;" ><b>முக்கியச்செய்தி</b></h3></div> -->
+            <!--   <div class="panel-label normal"> --><!-- <h3 style="color: #545252;" ><b>முக்கியச்செய்தி</b></h3> 
      <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2>
                   
                </div>--> <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2><hr>
