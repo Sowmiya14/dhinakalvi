@@ -2323,7 +2323,21 @@ read more
   border-radius: 50px 0 0;
   background: url('../img/cut/read-more-stip.png') repeat-x top;
   float: right;
-  padding: 0 13px 0 30px;
+  padding: 14px 13px 0 30px;
+  line-height: 35px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-family: 'NotoSansTamil-Regular', sans-serif;
+}
+.read-more1 {
+  height: 30px;
+  border-radius: 50px 0 0;
+  background: url('../img/cut/read-more-stip.png') repeat-x top;
+  float: right;
+  padding: 0px 13px 0 30px;
   line-height: 35px;
   color: #fff;
   cursor: pointer;
@@ -2516,16 +2530,17 @@ swiper edit pick slider
   background-color: #fff;
 }
 .editor-pick .swiper-wrapper .swiper-slide .article img {
-  width: 100%;
+  width: 300px;
+  height:180px; 
 }
 .editor-pick .swiper-wrapper .swiper-slide .article p {
-  background-color: #000;
-  color: #fff;
+  background-color: transparent;
+  color: #000;
   padding: 13px;
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
-  border-bottom: 15px solid #000;
-  height: 70px;
+  border-bottom: 15px solid transparent;
+  height: 90px;
   margin: 0;
   font-family: 'NotoSansTamil-Regular', sans-serif;
   overflow: hidden;
@@ -5474,7 +5489,7 @@ program page
     margin-left: 0px;
 }
 .view.view-display-id-album div {
-    font-size: 0;	
+    font-size: 0; 
     display: inline-block;
 }
 .view.view-display-id-album div img {

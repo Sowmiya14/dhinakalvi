@@ -163,7 +163,7 @@
 
 .gridPostsList1>li {
     border-right: 1px solid #ECECEC;
-    	
+        
 }
 
 .gridPostsList1>li>a {
@@ -203,8 +203,8 @@
 
 .gridPostsList1-fullWidthBlock .imgWrapper {
     float: left;
-    width: 35%;
-    height: 70px
+    width: 30%;
+    height: 90px
 }
 
 .gridPostsList1-fullWidthBlock .content {
@@ -222,7 +222,7 @@
 
 .gridPostsList1-fullWidthBlock-large .imgWrapper {
     width: 66.66%;
-    height: 220px;
+    height: 200px;
     padding-right: 16px
 }
 
@@ -235,3 +235,198 @@
 .gridPostsList1-fullWidthBlock-large .title:hover {
     color: #8600E5 !important
 }
+
+
+//
+
+.gridPostsList2 {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.gridPostsList2 .imgWrapper {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    max-width: 100%
+}
+
+.gridPostsList2 .imgWrapper img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    height: 100%;
+    margin: auto
+}
+
+.gridPostsList2 .imgWrapper .overlay {
+    display: none
+}
+
+.gridPostsList2 .imgWrapper .socialIconWrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 2px;
+    margin-right: 2px
+}
+
+.gridPostsList2 .imgWrapper .socialIconWrapper.facebook {
+    right: 42px
+}
+
+.gridPostsList .imgWrapper .socialIconWrapper.pinterest {
+    right: 84px
+}
+
+.gridPostsList2 .imgWrapper .socialIconWrapper i {
+    font-size: 20px
+}
+
+.gridPostsList2 .imgWrapper .pill {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.gridPostsList2 .imgWrapper-small {
+    height: 130px
+}
+
+.gridPostsList2 .imgWrapper-large {
+    height: 250px
+}
+
+.gridPostsList2 .imgWrapper-xlarge {
+    height: 300px
+}
+
+.gridPostsList2 .imgWrapper-xxlarge {
+    height: 476px
+}
+
+.gridPostsList2 .content {
+    height: 350px
+}
+
+.gridPostsList2 .content-small {
+    height: 275px
+}
+
+.gridPostsList2 .content-small .title-small {
+    font-size: 18px;
+    line-height: 26px
+}
+
+.gridPostsList2 .content-large {
+    height: 210px
+}
+
+.gridPostsList2 .content-xlarge {
+    height: 250px
+}
+
+.gridPostsList2 .content-xxlarge {
+    height: 202px
+}
+
+.gridPostsList2 .postInfoWrapper {
+    line-height: 12px
+}
+
+.gridPostsList2 .postInfoWrapper a:hover {
+    color: #E5002D
+}
+
+.gridPostsList2 .iconLikeComment {
+    font-size: 12px;
+    line-height: 11px
+}
+
+.gridPostsList2 .iconLikeComment:hover {
+    color: #E5002D
+}
+
+.gridPostsList2>li {
+    border-right: 1px solid #ECECEC;
+        
+}
+
+.gridPostsList2>li>a {
+    text-decoration: none
+}
+
+.gridPostsList2>li>a:hover .overlay {
+    display: block
+}
+
+.gridPostsList2>li>a:hover .socialIconWrapper {
+    display: block
+}
+
+.gridPostsList2>li>a:hover .pill {
+    color: #E5002D;
+    border-color: #E5002D
+}
+
+.gridPostsList2>li>a:hover .title-small {
+    color: #E5002D !important
+}
+
+.gridPostsList2>li.omega {
+    border-right: none
+}
+
+.gridPostsList2>li:last-of-type {
+    border-right: none
+}
+
+.gridPostsList2-fullWidthBlock>li {
+    border-right: none !important;
+    border-bottom: none !important
+
+}
+
+.gridPostsList2-fullWidthBlock .imgWrapper {
+    float: left;
+    width: 35%;
+    height: 75px
+}
+
+.gridPostsList2-fullWidthBlock .content {
+    position: relative;
+    width: 65%;
+    height: 25px;
+    padding-left: 16px
+}
+
+.gridPostsList2-fullWidthBlock .postDetails {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.gridPostsList2-fullWidthBlock-large .imgWrapper {
+    width: 66.66%;
+    height: 200px;
+    padding-right: 16px
+}
+
+.gridPostsList2-fullWidthBlock-large .content {
+    width: 33.33%;
+    height: 200px;
+    padding-left: 16px
+}
+
+.gridPostsList2-fullWidthBlock-large .title:hover {
+    color: #8600E5 !important
+}
+
