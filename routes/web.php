@@ -40,18 +40,16 @@ Route::get('/demo', function(){
 
 Auth::routes();
 
-Route::get('/home', 'admin_controller@admin')->name('home');
+Route::group(['prefix' => 'admin'], function () {
+  Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('login');
+  Route::post('/login', 'AdminAuth\LoginController@login');
+  Route::post('/logout', 'AdminAuth\LoginController@logout')->name('logout');
 
-Route::get('/add_category', 'admin_controller@add')->name('category.add');
-Route::post('/create_category', 'admin_controller@create')->name('category.create');
-Route::get('/show', 'admin_controller@show_category')->name('category.show');
-Route::get('/show_category/edit/{id}', 'admin_controller@edit')->name('category.edit');
-Route::post('/show_category/update/{id}', 'admin_controller@update')->name('category.update');
-Route::get('/show_category/delete/{id}', 'admin_controller@delete')->name('category.delete');
-Route::get('/content_section1', 'admin_controller@content_section1')->name('content_section1');
+  Route::get('/register', 'AdminAuth\RegisterController@showRegistrationForm')->name('register');
+  Route::post('/register', 'AdminAuth\RegisterController@register');
 
-
-
-
-
-
+  Route::post('/password/email', 'AdminAuth\ForgotPasswordController@sendResetLinkEmail')->name('password.request');
+  Route::post('/password/reset', 'AdminAuth\ResetPasswordController@reset')->name('password.email');
+  Route::get('/password/reset', 'AdminAuth\ForgotPasswordController@showLinkRequestForm')->name('password.reset');
+  Route::get('/password/reset/{token}', 'AdminAuth\ResetPasswordController@showResetForm');
+});
