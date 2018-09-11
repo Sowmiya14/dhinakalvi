@@ -41,6 +41,9 @@
 <!-- Custom scripts for all pages -->
 <script src="{{ url('assets\dist\js\glovia.js') }}"></script>
 <script src="{{ url('assets\dist\js\jQuery.style.switcher.js') }}"></script>
+
+<script src="{{ asset('vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
+
 <script>
     function openRightMenu() {
         document.getElementById("rightMenu").style.display = "block";
@@ -58,6 +61,10 @@
 
 <script>
     $('.dropdown-toggle').dropdown()
+</script>
+
+<script>
+    CKEDITOR.replace( 'summary-ckeditor' );
 </script>
 
 
