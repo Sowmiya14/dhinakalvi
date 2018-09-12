@@ -1,10 +1,9 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
-      <title>Your Story</title>
+      <title>Dinakalvi</title>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0"/>
       <meta name="description" content="">
@@ -17,7 +16,7 @@
       <link href="{{ asset('css/bootstrap1.min.css') }}" media="all" rel="stylesheet" />
       <link href="{{ asset('js/bootstrap1.js') }}" media="all" type="text/javascript" />
       <link href="{{ asset('js/thumbnail-slider.js') }}" type="text/javascript" />
-      <link href="{{ asset('css/thumbnail-slider.css') }}" media="all" rel="stylesheet" />
+      <link href="{{ asset('css/thumbnail-slider.css') }}" medi a="all" rel="stylesheet" />
       <link href="{{ asset('css/thumbs2.css') }}" media="all" rel="stylesheet" />
       <!-- //ns -->
       <link href="{{ asset('css/ns/swiper.css') }}" media="all" rel="stylesheet" />
@@ -246,22 +245,22 @@
                   </div>
                   <div class="fl blockLeft ">
                      <a href="index.html" class="fl menuBtn color-white hide js-mob-nav-trigger phn-tab-block tab-mr-20 phn-mr-20">
-                     <i class="icon-menu-2 js-icon-menu"></i>
-                     <i class="icon-cancel js-icon-cancel hide"></i>
-                     </a>  
-                     <div class="has-dropdown current-page " id="resp" >
-                        <a href="#" data-dropdown="logo" class="logo active hide-text" id="logo" style="background-color:                                                                                                                                                                                                              #e5002d; "></a>
-                        <div data-dropdown="logo" class="navDropdown show"  style="background-color: #e31e24;height: 70px;position:;top:100px; ">
+
+                        <i class="icon-menu-2 js-icon-menu"></i>
+                        <i class="icon-cancel js-icon-cancel hide"></i>
+                        </a>  
+                     <div class="has-dropdown current-page" id="resp" >
+                        <a href="#" data-dropdown="logo" class="logo active hide-text" id="logo" style="background-color:#e23809; "></a>
+                        <div data-dropdown="logo" class="navDropdown show"  style="background-color: #e23809;height: 70px;position:fixed;top:100px; ">
                            <div class="container" style=" top:18px;">
                               
                               <ul class="navDropdown_list">
                                  <li>
-                                    <center>  <i class="fa fa-home fa-lg" aria-hidden="true" id="icon"  ></i></center>
-                                    <a href="/" class="" style="font-size: 16px;" ><b>முகப்பு</b></a>
+                                     <center><i class="fa fa-home fa-lg" aria-hidden="true" id="icon"></i></center><a href="/" class="" style="font-size: 16px;" ><b>முகப்பு</b></a> 
                                  </li>
                                  <li>
                                     <center> <i class="fa fa-laptop fa-lg" aria-hidden="true" id="icon"></i></center>
-                                    <a class=""href="/tag" style="font-size: 16px;">
+                                    <a class="" href="/tag" style="font-size: 16px;">
                                     <b> நியூஸ் வியூஸ்</b>
                                     </a>
                                  </li>
@@ -272,28 +271,28 @@
                                       </a>
                                     </li> -->
                                  <li>
-                                    <center>   <i class="fa fa-car fa-lg" aria-hidden="true" id="icon"></i></center>
-                                    <a class=""href="/tag" style="font-size: 16px;">
+                                    <center><i class="fa fa-car fa-lg" aria-hidden="true" id="icon"></i></center>
+                                    <a class="" href="/tag" style="font-size: 16px;">
                                     <b>வென்றவர்கள்</b>
                                     </a>
                                  </li>
                                  <li>
                                     <center> <i class="fa fa-users fa-lg" aria-hidden="true" id="icon"></i></center>
-                                    <a class=""href="/tag" style="font-size: 16px;">
+                                    <a class="" href="/tag" style="font-size: 16px;">
                                     <b>
                                     சாதனை அரசிகள்</b>
                                     </a>
                                  </li>
                                  <li>
                                     <center> <i class="fa fa-globe fa-lg" aria-hidden="true" id="icon"></i></center>
-                                    <a class=""href="/tag" style="font-size: 16px;">
+                                    <a class="" href="/tag" style="font-size: 16px;">
                                     <b> விதைத்தவர்கள்</b>
                                     </a>
                                  </li>
                                  <li>
                                     <center> <i class="fa fa-camera fa-lg" aria-hidden="true" id="icon"></i></center>
-                                    <a class=""href="/tag" style="font-size: 16px;">
-                                    <b>’வாவ்’ வாசல்</b>
+                                    <a class="" href="/tag" style="font-size: 16px;">
+                                    <b>வாவ் வாசல்</b>
                                     </a>
                                  </li>
                                  <div class="clr"></div>
@@ -308,30 +307,21 @@
                                           <i class="icon-cancel js-icon-cancel hide"></i>
                                           </a>
                                           </li> -->
-                                       <li><a href="/" class=""style="font-size: 14px;"><b>முகப்பு</b></a></li>
-                                       <li>
-                                          <a class=""href="/tag" style="font-size: 14px;" >
-                                          <b>நியூஸ் வியூஸ்</b>
-                                          </a>
-                                       </li>
-                                       <li>
-                                          <a class=""href="/tag"style="font-size: 14px;">
-                                          <b> ஸ்டார்ட்-அப் நாயகர்கள்</b>
-                                          </a>
-                                       </li>
-                                       <li>
-                                          <a class=""href="/tag"style="font-size: 14px;">
-                                          <b> வென்றவர்கள்</b>
-                                          </a>
-                                       </li>
-                                       <li>
-                                          <a class=""href="/tag"style="font-size: 14px;">
-                                          <b>சாதனை அரசிகள்</b>
-                                          </a>
-                                       </li>
                                        <li class="dropdown">
-                                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"style="font-size: 14px;"><b> விதைத்தவர்கள்</b> <b class="caret"></b></a>
-                                          <ul class="dropdown-menu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"><b> முகப்பு</b> <b class="caret"></b></a>
+                                         <ul class="dropdown-menu">
+                                             <li><a href="#">Action</a></li>
+                                             <li><a href="#">Another action</a></li>
+                                             <li><a href="#">Something else here</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">Separated link</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">One more separated link</a></li>
+                                          </ul></li>
+                                       <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"><b> நியூஸ் வியூஸ்</b> <b class="caret"></b></a>
+                                          </a>
+                                            <ul class="dropdown-menu">
                                              <li><a href="#">Action</a></li>
                                              <li><a href="#">Another action</a></li>
                                              <li><a href="#">Something else here</a></li>
@@ -341,12 +331,60 @@
                                              <li><a href="#">One more separated link</a></li>
                                           </ul>
                                        </li>
-                                       <!--  <li>
-                                          <a class=""href="/tag"style="font-size: 14px;">
-                                          <b> விதைத்தவர்கள்</b>
+                                       <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"><b> வென்றவர்கள்</b> <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                             <li><a href="#">Action</a></li>
+                                             <li><a href="#">Another action</a></li>
+                                             <li><a href="#">Something else here</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">Separated link</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">One more separated link</a></li>
+                                          </ul>
+                                       </li>
+                                     {{--   <li>
+                                          <a class="" href="/tag" style="font-size: 14px;">
+                                          <b> ஸ்டார்ட்-அப் நாயகர்கள்</b>
                                           </a>
+                                       </li> --}}
+                                       <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"><b> சாதனை அரசிகள்</b> <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                             <li><a href="#">Action</a></li>
+                                             <li><a href="#">Another action</a></li>
+                                             <li><a href="#">Something else here</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">Separated link</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">One more separated link</a></li>
+                                          </ul>
+                                       </li>
+                                       <li class="dropdown">
+                                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"><b> விதைத்தவர்கள்</b> <b class="caret"></b></a>
+                                           <ul class="dropdown-menu">
+                                             <li><a href="#">Action</a></li>
+                                             <li><a href="#">Another action</a></li>
+                                             <li><a href="#">Something else here</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">Separated link</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">One more separated link</a></li>
+                                          </ul>
+                                       </li>
+                                        <li class="dropdown">
+                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"><b> &nbsp;வாவ் வாசல்</b> <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                             <li><a href="#">Action</a></li>
+                                             <li><a href="#">Another action</a></li>
+                                             <li><a href="#">Something else here</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">Separated link</a></li>
+                                             <li class="divider"></li>
+                                             <li><a href="#">One more separated link</a></li>
+                                          </ul>
                                           </li>
-                                          -->
+                                         
                                        <div class="clr"></div>
                                     </ul>
                                  </div>

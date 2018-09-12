@@ -27,15 +27,15 @@
                 <!-- Master-->
                 <li class="nav-item @yield('master')" data-toggle="tooltip" data-placement="right" title="Dashboard">
                     <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#Dashboard" data-parent="#exampleAccordion">
-                        <i class="ti i-cl-12 ti-settings"></i>
+                        <i class="ti i-cl-12 ti-layers-alt"></i>
                         <span class="nav-link-text">Categories</span>
                     </a>
                     <ul class="sidenav-second-level collapse" id="Dashboard">
                         <li>
-                            <a href="{{ url('add_category') }}">Add category</a>
+                            <a href="{{ url('/admin/category/add') }}">Add Category</a>
                         </li>
                          <li>
-                            <a href="{{ url('show') }}">View category</a>
+                            <a href="{{ url('/admin/category/view') }}">View category</a>
                         </li>
 
                     </ul>
@@ -43,7 +43,7 @@
                 <!-- End Master -->
 
                 <!-- Start Advance Apps -->
-                <li class="nav-item @yield('vendor')" data-toggle="tooltip" data-placement="right" title="Advance Apps">
+               {{--  <li class="nav-item @yield('vendor')" data-toggle="tooltip" data-placement="right" title="Advance Apps">
                     <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#advance-apps" data-parent="#exampleAccordion">
                         <i class="ti i-cl-9 ti ti-user"></i>
                         <span class="nav-link-text">Vendor</span>
@@ -64,16 +64,16 @@
                         
                     </ul>
 
-                </li>
+                </li> --}}
                 <!-- End Advance Apps -->
 
                 <!-- Start projects -->
-                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Projects">
+            {{--     <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Projects">
                     <a class="nav-link" href="#">
                         <i class="ti i-cl-2 ti-layers"></i>
                         <span class="nav-link-text">Projects</span>
                     </a>
-                </li>
+                </li> --}}
                 <!-- End Projects -->
 
             </ul>
