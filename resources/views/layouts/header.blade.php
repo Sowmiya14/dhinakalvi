@@ -27,16 +27,48 @@
       <link href="{{ asset('css/thumbnail-slider.css') }}" media="all" rel="stylesheet" />
       <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
       <script src="{{ asset('js/swiper.js') }}"  media="all" type="text/javascript"></script>
+      <script type="text/javascript" src="https://www.google.com/jsapi">
+    </script>
+    
+    <script type="text/javascript">
+
+      // Load the Google Transliterate API
+      google.load("elements", "1", {
+            packages: "transliteration"
+          });
+
+      function onLoad() {
+        var options = {
+            sourceLanguage:
+                google.elements.transliteration.LanguageCode.ENGLISH,
+            destinationLanguage:
+                [google.elements.transliteration.LanguageCode.TAMIL],
+            shortcutKey: 'ctrl+g',
+            transliterationEnabled: true
+        };
+
+        // Create an instance on TransliterationControl with the required
+        // options.
+        var control =
+            new google.elements.transliteration.TransliterationControl(options);
+
+        // Enable transliteration in the textbox with id
+        // 'transliterateTextarea'.
+        control.makeTransliteratable(['transliterateTextarea']);
+      }
+      google.setOnLoadCallback(onLoad);
+    </script>
+
       <style>
-div.sticky {
+    div.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: yellow;
     padding: 50px;
     font-size: 20px;
-}
-</style>
+               }
+   </style>
       <style type="text/css">
          body{
          font-family: Noto Sans Tamil;
@@ -78,6 +110,7 @@ div.sticky {
          #icon{
          color: white;
          }
+
          #icon1{
          color: white;
          }
@@ -122,6 +155,14 @@ div.sticky {
          line-height: 22px;
          color:   #3f3d3d;
          }
+         #main{
+            font-size: 26px;
+            line-height: 38px;
+            vertical-align: baseline;
+            letter-spacing: normal;
+            word-spacing: 0px;
+            font-weight: 700;
+         }
          }
          @media screen and (max-width: 600px) {
          #mobile {
@@ -155,8 +196,10 @@ div.sticky {
          <section class="sectionLanguage sectionNavigation ">
             <div class="content"  id="mobile" " >
                <div class="container">
+                         <input type="text" id="transliterateTextarea" style="width:250px;height:32px;margin-left: 1000px;"></input>
+
                   <div class="" style="position: ;">
-                     <ul class="socialLinks socialLinks-red" id="display" style="padding-top:60px;padding-left:1000px">
+                     <ul class="socialLinks socialLinks-red" id="display" style="padding-top:30px;padding-left:1000px">
                         <li>
                            <div class="div1" style="background: #3b5998;">
                               <a href="#" class="fb">
@@ -195,6 +238,7 @@ div.sticky {
                      <div class="container" id="resp" style="" >
                         <form class="searchForm"  method="GET" action="#">
                            <i class="color-grey inputcon-search iconSearch fl" ></i>
+
                            <input type="text" name="query" placeholder="தேடல்" class="fr searchBar"  style="width: 300px;display: none;">
                            <div class="clr"></div>
                         </form>
@@ -209,6 +253,7 @@ div.sticky {
                         <a href="#" data-dropdown="logo" class="logo active hide-text" id="logo" style="background-color:                                                                                                                                                                                                              #e5002d; "></a>
                         <div data-dropdown="logo" class="navDropdown show"  style="background-color: #e31e24;height: 70px;position:;top:100px; ">
                            <div class="container" style=" top:18px;">
+                              
                               <ul class="navDropdown_list">
                                  <li>
                                     <center>  <i class="fa fa-home fa-lg" aria-hidden="true" id="icon"  ></i></center>
