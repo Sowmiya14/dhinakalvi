@@ -43,28 +43,28 @@
                 <!-- End Master -->
 
                 <!-- Start Advance Apps -->
-               {{--  <li class="nav-item @yield('vendor')" data-toggle="tooltip" data-placement="right" title="Advance Apps">
+                <li class="nav-item @yield('vendor')" data-toggle="tooltip" data-placement="right" title="Advance Apps">
                     <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#advance-apps" data-parent="#exampleAccordion">
-                        <i class="ti i-cl-9 ti ti-user"></i>
-                        <span class="nav-link-text">Vendor</span>
+                        <i class="ti i-cl-9 ti ti-export"></i>
+                        <span class="nav-link-text">Posts</span>
                     </a>
                     <ul class="sidenav-second-level collapse" id="advance-apps">
 
                         <li>
-                            <a href="{{ url('/admin/vendor/add') }}">Add Vendor</a>
+                            <a href="{{ url('/admin/posts/add') }}">Content</a>
                         </li>
 
-                        <li>
+                       {{--  <li>
                             <a href="{{ url('/admin/vendor/approve') }}">Approve Vendor <span class="a-nav__link-badge a-badge a-badge--pink"></span></a>
                         </li>
 
                         <li>
                             <a href="{{ url('/admin/vendor/') }}">View Vendor</a>
-                        </li>
+                        </li> --}}
                         
                     </ul>
 
-                </li> --}}
+                </li>
                 <!-- End Advance Apps -->
 
                 <!-- Start projects -->
