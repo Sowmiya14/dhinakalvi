@@ -43,6 +43,11 @@
 <script src="{{ url('assets\dist\js\jQuery.style.switcher.js') }}"></script>
 
 <script src="{{ asset('vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
+<script type="text/javascript" src="/js/ckfinder/ckfinder.js"></script>
+
+<script>
+      CKFinder.config( { connectorPath: '/ckfinder/connector' } );
+</script>
 
 <script>
     function openRightMenu() {

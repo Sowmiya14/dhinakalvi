@@ -53,14 +53,10 @@
                         <li>
                             <a href="{{ url('/admin/posts/add') }}">Content</a>
                         </li>
-
-                       {{--  <li>
-                            <a href="{{ url('/admin/vendor/approve') }}">Approve Vendor <span class="a-nav__link-badge a-badge a-badge--pink"></span></a>
-                        </li>
-
+                        
                         <li>
-                            <a href="{{ url('/admin/vendor/') }}">View Vendor</a>
-                        </li> --}}
+                            <a href="{{ url('/admin/posts/view') }}">View Content</a>
+                        </li>
                         
                     </ul>
 
