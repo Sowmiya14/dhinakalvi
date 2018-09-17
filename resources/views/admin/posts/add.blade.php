@@ -36,7 +36,7 @@
                     @include('admin.layout.category')
 
                     <div class="row mrg-0">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <div class="form-group">
                                 <label for="inputName" class="control-label"><span class="asterisk">Text Content</span></label>
                                 <textarea class="form-control" id="summary-ckeditor" equired="" name="posts" data-error="Please Enter posts"></textarea>
