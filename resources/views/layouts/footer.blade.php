@@ -86,6 +86,21 @@
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/cor.js') }}"></script>
 <script src="{{ asset('js/landing.js') }}"></script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
  <link href="{{ asset('css/resp.css') }}"  rel="stylesheet" />
 </body>
 <style type="text/css">
