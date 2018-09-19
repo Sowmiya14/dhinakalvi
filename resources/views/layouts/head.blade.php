@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-   <head>
-      <title>Your Story</title>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>The Education     News Paper - News &amp; </title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('head/style.css') }}">
+
+</head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0"/>
       <meta name="description" content="">
       <link href="{{ asset('css/g-font3.css') }}" rel="stylesheet">
@@ -19,49 +34,14 @@
       <link href="{{ asset('css/thumbs2.css') }}" media="all" rel="stylesheet" />
       <!-- //ns -->
       <link href="{{ asset('css/ns/swiper.css') }}" media="all" rel="stylesheet" />
-      <!-- <link href="{{ asset('css/ns/swiper.min.css') }}" media="all" rel="stylesheet" /> -->
+      <link href="{{ asset('css/ns/swiper.min.css') }}" media="all" rel="stylesheet" />
       <link href="{{ asset('css/thumbnail-slider.css') }}" media="all" rel="stylesheet" />
       <link href="{{ asset('css/thumbnail-slider.css') }}" media="all" rel="stylesheet" />
       <link href="{{ asset('css/thumbnail-slider.css') }}" media="all" rel="stylesheet" />
       <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
       <script src="{{ asset('js/swiper.js') }}"  media="all" type="text/javascript"></script>
       <script type="text/javascript" src="https://www.google.com/jsapi">
-    </script>
-
-   <!-- new design -->
-
-     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title -->
-    <title>The Education     News Paper - News &amp; </title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="http://www.dinakalvi.com/skin/frontend/smartwave/porto/images/logo_footer.png">
-
-    <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('head/style.css') }}">
-
-
-
-     <script src="{{ asset('head/js/jquery/jquery-2.2.4.min.js') }}"></script>
-    <!-- Popper js -->
-    <script src="{{ asset('head/js/bootstrap/popper.min.js') }}"></script>
-    <!-- Bootstrap js -->
-    <script src="{{ asset('head/js/bootstrap/bootstrap.min.js') }}"></script>
-    <!-- All Plugins js -->
-    <script src="{{ asset('head/js/plugins/plugins.js') }}"></script>
-    <!-- Active js -->
-    <script src="{{ asset('head/js/active.js') }}"></script>
-
-<!-- end new design -->
-
-
-    
-    <script type="text/javascript">
+    </script>  <script type="text/javascript">
 
       // Load the Google Transliterate API
       google.load("elements", "1", {
@@ -111,7 +91,7 @@
          }
          @media screen and (min-width: 600px) {                                                                                                                                                                                                                
          #mobile {
-         height: 220px;
+         height: 35px;
          }
          .navbar-default .navbar-nav > li.dropdown:hover > a, 
          .navbar-default .navbar-nav > li.dropdown:hover > a:hover,
@@ -223,11 +203,10 @@
          font-family: Arial, Helvetica, sans-serif;
          }
       </style>
-     
 
-      <!-- new header -->
-
-       <header class="header-area">
+<body>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
 
         <!-- Top Header Area -->
         <div class="top-header-area" style="background-color: #fff;">
@@ -409,4 +388,24 @@
         </div>
 
     </header>
-      <!-- end of new header -->
+
+
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+   
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Files ##### -->
+     <script src="{{ asset('head/js/jquery/jquery-2.2.4.min.js') }}"></script>
+    <!-- Popper js -->
+    <script src="{{ asset('head/js/bootstrap/popper.min.js') }}"></script>
+    <!-- Bootstrap js -->
+    <script src="{{ asset('head/js/bootstrap/bootstrap.min.js') }}"></script>
+    <!-- All Plugins js -->
+    <script src="{{ asset('head/js/plugins/plugins.js') }}"></script>
+    <!-- Active js -->
+    <script src="{{ asset('head/js/active.js') }}"></script>
+</body>
+
+</html>

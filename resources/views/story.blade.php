@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-   @include('layouts.header')
+   @include('layouts.head')
 <body>
    <style type="text/css">
      .line h2 {

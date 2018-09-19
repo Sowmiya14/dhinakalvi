@@ -20,20 +20,20 @@ Route::get('/', function () {
 Route::get('/1', function () {
     return view('demo1');
 });
-Route::get('/next', function () {
-    return view('master.next');
+Route::get('/next', function () {   
+    return view('master.next'); 
 });
 
-Route::get('/tag', function () {
-    return view('story');
+Route::get('/content', function () {
+    return view('master.content');
 });
 
-Route::get('/content', function(){
-	 return view('story');
+Route::get('/tag', function(){
+	 return view('master.headline');
 });
 
 Route::get('/demo', function(){
-	 return view('admin.home');
+	 return view('layouts.head');
 });
 
 
