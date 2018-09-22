@@ -28,7 +28,7 @@
       <script type="text/javascript" src="https://www.google.com/jsapi">
     </script>
     
-    <script type="text/javascript
+    <script type="text/javascript">
       // Load the Google Transliterate API
       google.load("elements", "1", {
             packages: "transliteration"
@@ -54,14 +54,35 @@
     </script>
 
       <style>
-    div.sticky {
+#navbar {
+  overflow: hidden;
+  background-color: #e31e24;
+}
+
+#navbar a {
+  padding:10px;
+  font-size: 10px;
+}
+.content {
+  padding: 1px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 0px;
+}
+   /* div.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: yellow;
     padding: 50px;
     font-size: 20px;
-               }
+               }*/
    </style>
       <style type="text/css">
          body{
@@ -104,7 +125,6 @@
          #icon{
          color: white;
          }
-
          #icon1{
          color: white;
          }
@@ -190,7 +210,7 @@
          <section class="sectionLanguage sectionNavigation ">
             <div class="content"  id="mobile" " >
                <div class="container">
-                         <input type="text" id="transliterateTextarea" style="width:250px;height:32px;margin-left: 1000px;"></input>
+               <input type="text" id="transliterateTextarea" style="width:250px;height:32px;margin-left: 1000px;"></input>
 
                   <div class="" style="position: ;">
                      <ul class="socialLinks socialLinks-red" id="display" style="padding-top:30px;padding-left:1000px">
@@ -244,9 +264,9 @@
                      <i class="icon-cancel js-icon-cancel hide"></i>
                      </a>  
                      <div class="has-dropdown current-page " id="resp" >
-                        <a href="#" data-dropdown="logo" class="logo active hide-text" id="logo" style="background-color:                                                                                                                                                                                                              #e5002d; "></a>
+                        <a href="#" data-dropdown="logo" class="logo active hide-text" id="logo" style="background-color: #e5002d; "></a>
                         <div data-dropdown="logo" class="navDropdown show"  style="background-color: #e31e24;height: 70px;position:;top:100px; ">
-                           <div class="container" style=" top:18px;">
+                           <div class="container" id="navbar" style="top:18px; padding-bottom:10;">
                               
                               <ul class="navDropdown_list">
                                  <li>

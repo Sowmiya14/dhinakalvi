@@ -61,7 +61,6 @@
          </ul>
             <p class="ta-c pv-15">
             &copy; 
-
  2018 Greefi Technologies
 . All rights reserved.
          </p>
@@ -73,7 +72,6 @@
       <div class="container">
          <p class="ta-c pv-15">
             &copy; 
-
  2018 Greefi Technologies
 . All rights reserved.
          </p>
@@ -87,15 +85,15 @@
 <script src="{{ asset('js/cor.js') }}"></script>
 <script src="{{ asset('js/landing.js') }}"></script>
  <link href="{{ asset('css/resp.css') }}"  rel="stylesheet" />
- <script>
+<script>
 window.onscroll = function() {myFunction()};
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
 function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
   } else {
-    header.classList.remove("sticky");
+    navbar.classList.remove("sticky");
   }
 }
 </script>
