@@ -17,8 +17,6 @@
         margin-left: 0px;
         color: #3f3d3d;
 }
-
-
 .line h2:after {
   background-color: #545252;
   content: "";
@@ -28,17 +26,14 @@
   vertical-align: middle;
   width: 82%;
 }
-
 .line h2:before {
   right: 0.5em;
   margin-left: -50%;
 }
-
 .line h2:after {
   left: 0.5em;
   margin-right: -50%;
 }
-
 .hd {
     display: block;
     font-size: 24px;
@@ -51,31 +46,32 @@
         margin-left: 0px;
 }                                                                                                                                                                                                                                                  
 }
- .hd a{
-    color: #333;
-}
-   </style>
-   <section class="section sectionMainPosts pb-30 "  id="section1">
-      <div class="container">
-         <div class="clearfix">
-            <div class="row">
-               <div class="col-sm-9">
-                  <div class="">
+  .hd a {
+            color: #333;
+        }
+        </style>
+        <section class="section sectionMainPosts pb-30 " id="section1">
+            <div class="container">
+                 
+                <div class="clearfix">
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <div class="">
+                                <div class="line">
 
-                   <div class=""> <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2></div>
-                   {{-- <div class="line" > <h2>முக்கியச்செய்தி</h2></div> --}}
+                                    <h2>முக்கியச்செய்தி</h2></div>
 
-
-                     <!-- <div class="title-small bentonCondensed bold color-black-2 truncate-5 mt-15"> <h2><b>முக்கியச்செய்தி--------------------------------------------------------------------------------</b></h2></div> -->
-                     <div class="news_video_live_con">
-                        <div class="news_video_live">
-                           <div class="sectionImpPosts">
-                              <div class="mainImgWrapper">
-                                 <img src="{{ asset('images/image1.jpg') }}">
-                                 <div class=""></div>
-                              </div>
-                              <div class="sectionImpPosts_content fl ph-30 phn-ph-16">
-                                 <div class="pill">
+                                <!-- <div class="title-small bentonCondensed bold color-black-2 truncate-5 mt-15"> <h2><b>முக்கியச்செய்தி--------------------------------------------------------------------------------</b></h2></div> -->
+                                <div class="news_video_live_con">
+                                    <div class="news_video_live">
+                                        <div class="sectionImpPosts">
+                                            <div class="mainImgWrapper">
+                                                <img src="{{ asset('images/image1.jpg') }}">
+                                                <div class=""></div>
+                                            </div>
+                                            <div class="sectionImpPosts_content fl ph-30 phn-ph-16">
+                                                <div class="pill">
+                             
                                     ’வாவ்’ வாசல்
                                  </div>
                                  <!--  <div class="pill phn-grid-full " style="height: 100px;"> -->
@@ -329,6 +325,8 @@
             <div class="col-sm-4"></div>
          </div>
          <div class="row">
+                <div class="container">
+                  
             <div class="col-sm-9">
             <div class="col-sm-6">
          <ul class="gridPostsList">
@@ -336,7 +334,7 @@
 
                <a href="#" class="content">
                   <div href="#" class="imgWrapper imgWrapper-xlarge block">
-                     <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img" id="size" style="width: 1500px;height: 4000px;">
+                     <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img" id="size">
                      <div class="overlay"></div>
                      <div data-type="facebook" data-url="#" class="socialIconWrapper facebook" data-title="" data-via="YourStoryCo">
                         <i class="icon-facebook"></i>
@@ -346,7 +344,7 @@
                      </div>
 
                      <div class="pill" style="bottom: 75px;background-color:#e5002d;width: 140px;height: 30px;opacity: 0.7;">    
-                        <a href=""><p class="truncate-3 mt-5" style="font-size: 16px; color:white;">
+                        <a href=""><p class="truncate-3 mt-5" style="font-size: 20px; color:white;">
                         <b>சேட்களுக்கு</b>
                      </p></a>
                      </div>
@@ -559,7 +557,7 @@
                 {{-- <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2> --}}
                <li class="grid">
                      <div href="#" class="imgWrapper block">
-                        <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img">
+                        <img src="{{ asset('images/image1.jpg') }}" class="sectionPostDetailsOverlap_img" >
                         <div class="overlay"></div>
                         <div data-type="facebook" data-url="#" class="socialIconWrapper facebook" data-title="" data-via="YourStoryCo">
                            <i class="icon-facebook"></i>
@@ -1279,7 +1277,6 @@
                <!-- <center><div class="title-small bentonCondensed bold color-blue-2 truncate-5 mt-15" ><h2><b>முக்கியச்செய்தி<hr></b></h2></div></center> -->
                <!--<div class="panel-label normal"><h3 style="color: #545252;" ><b>முக்கியச்செய்தி</b></h3> 
      <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2>
-
                </div>--> <h2 class="hd"><a id="heading" href="">முக்கியச்செய்தி</a> </h2><hr>
                <div class="row">
                   <div class="col-sm-6">
@@ -1356,4 +1353,3 @@
 </body>
 @include('layouts.footer')
 </html>
-
