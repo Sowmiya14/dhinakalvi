@@ -28,7 +28,7 @@
       <script type="text/javascript" src="https://www.google.com/jsapi">
     </script>
     
-    <script type="text/javascript
+    <script type="text/javascript">
       // Load the Google Transliterate API
       google.load("elements", "1", {
             packages: "transliteration"
@@ -125,7 +125,6 @@
          #icon{
          color: white;
          }
-
          #icon1{
          color: white;
          }

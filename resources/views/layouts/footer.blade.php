@@ -61,7 +61,6 @@
          </ul>
             <p class="ta-c pv-15">
             &copy; 
-
  2018 Greefi Technologies
 . All rights reserved.
          </p>
@@ -73,7 +72,6 @@
       <div class="container">
          <p class="ta-c pv-15">
             &copy; 
-
  2018 Greefi Technologies
 . All rights reserved.
          </p>
