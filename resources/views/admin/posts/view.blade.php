@@ -33,7 +33,7 @@
                 <tbody>
                 @foreach($datas as $data)
                     <tr>
-                        <td>{{ $data->posts}}</td>
+                        <td>{{ $data->category}}</td>
                         <td>
                             <form action="{{ route('admin.destory_posts', $data->id) }}" method="POST">
                                 {{ csrf_field() }}
